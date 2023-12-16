@@ -40,6 +40,12 @@ strong{
 .bio{
   font-size: 24px;
 }
+.pageTitle{
+  font-size: 15px;
+  width: 45px;
+  border-bottom: 1px solid #1e376c;
+  color: #1e376c;
+}
 
 .btn-get-started{
   border-radius: 80%;
@@ -78,6 +84,7 @@ strong{
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
+  text-decoration: none;
 }
 
 .button-get-started:hover,
