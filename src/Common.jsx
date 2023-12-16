@@ -13,7 +13,7 @@ const Common = (props) => {
               <h1 className="mainHeading">
                 Grow your business with <strong>Mighty Developers</strong>
               </h1>
-              <h2 className="my-3 bio">We're the team of experienced developers</h2>
+              <h2 className="my-3 bio">We're the team of experienced developers.</h2>
               <div className="my-3">
                 <NavLink className="button-get-started" to={props.buttonClick}>
                     {props.buttonName}
@@ -21,7 +21,7 @@ const Common = (props) => {
               </div>
             </div>
             <div className="col-md-6 order-2 order-lg-1">
-              <img src={props.imgSrc} className="img-fluid " alt="Home-image" />
+              <img src={props.imgSrc} className="img-fluid animated" alt="Home-image" />
             </div>
           </div>
         </div>

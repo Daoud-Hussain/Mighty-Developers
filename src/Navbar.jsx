@@ -6,8 +6,8 @@ import Contact from "./Contact";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg nav_bg col-10 mx-auto fw-semibold">
-        <div className="container-fluid  ">
+      <nav className="navbar navbar-expand-lg nav_bg  fw-semibold">
+        <div className="container-fluid col-10 mx-auto">
           <a className="navbar-brand" href="/">
             Mighty Developers
           </a>
