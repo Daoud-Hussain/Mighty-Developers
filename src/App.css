@@ -13,13 +13,79 @@
 
 .navbar-brand{
   font-size: 1.9rem;
-  color: #585387 !important;
+  font-weight: bold;
+  color: #1e376c !important;
 }
-
+.nav_bg{
+  background-color: #eaf3fa;
+}
+.mainHeading{
+  font-weight: 500;
+}
 .navbar a:hover{
-  color: #3498db;
+  color: #6c9cee;
 
 }
+#header{
+  height: 80vh;
+  width: 100%;
+  margin-top: 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+strong{
+  color: #1e376c;
+}
+
+.bio{
+  font-size: 24px;
+}
+
+.btn-get-started{
+  border-radius: 80%;
+  text-decoration: none;
+  width: 300px;
+  height: 300px;
+  padding: 10px 20px;
+  color: black;
+  border: 1px solid #f0964f;
+  background-color: #f0964f;
+}
+.button-get-started {
+  align-items: center;
+  background-color: #f0964f;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-get-started:hover,
+.button-get-started:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
