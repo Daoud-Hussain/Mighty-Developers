@@ -6,10 +6,12 @@ import Home from './Home';
 import Contact from './Contact';
 import Services from './Services';
 import About from './About';
+import Navbar  from './Navbar';
 
 function App() {
   return (
     <>
+      <Navbar />
       <Router>
         <Routes>
           <Route element={<Home />} path='/' />

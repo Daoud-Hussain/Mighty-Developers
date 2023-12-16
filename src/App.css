@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+.navbar-nav.ml-auto {
+  margin-left: auto !important;
+}
+
+.navbar-brand{
+  font-size: 1.9rem;
+  color: #585387 !important;
+}
+
+.navbar a:hover{
+  color: #3498db;
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
