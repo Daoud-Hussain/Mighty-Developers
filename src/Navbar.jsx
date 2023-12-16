@@ -2,15 +2,16 @@ import React from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Contact from "./Contact";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg nav_bg  fw-semibold">
         <div className="container-fluid col-10 mx-auto">
-          <a className="navbar-brand" href="/">
+          <NavLink className="navbar-brand" to="/">
             Mighty Developers
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -25,24 +26,24 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a activeClassName="activeClass" className="nav-link active" aria-current="page" href="/home">
+                <NavLink exact activeClassName="activeClass" className="nav-link" aria-current="page" to="/home">
                   Home
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">
+                <NavLink activeClassName="activeClass" className="nav-link" to="/about">
                   About
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/services">
+                <NavLink activeClassName="activeClass" className="nav-link" to="/services">
                   Services
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">
+                <NavLink activeClassName="activeClass" className="nav-link" to="/contact">
                   Contact
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>
