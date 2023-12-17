@@ -11,7 +11,7 @@ const Common = (props) => {
             <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                 <p className="pageTitle">{props.value}</p>
               <h1 className="mainHeading">
-                Grow your business with <strong>Mighty Developers</strong>
+                Grow your business with <strong>Mighty Developers.</strong>
               </h1>
               <h2 className="my-3 bio">We're the team of experienced developers.</h2>
               <div className="my-3">
