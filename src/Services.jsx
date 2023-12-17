@@ -1,5 +1,11 @@
 import React from "react";
-import homeImg from './Images/home-img.png'
+import Card from "./Card";
+import web from './Images/web.jpg'
+import android from './Images/android.jpg'
+import programming from './Images/programming.jpg'
+import game from './Images/game.jpg'
+import content from './Images/content.jpg'
+import graphics from './Images/graphics.jpg'
 
 const Services = () => {
   return (
@@ -7,59 +13,15 @@ const Services = () => {
       <div className="my-5">
         <h1 className="text-center">Our Services</h1>
       </div>
-      <div className="row mx-5">
-      <div className="col-md-4 col-10 mx-auto">
-          <div className="card w-4">
-            <img src={homeImg} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-          
-        </div>
+      <div className="row mx-5 gy-4 gx-4 mb-5">
 
-        <div className="col-md-4 col-10 mx-auto">
-          <div className="card w-4">
-            <img src={homeImg} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
+        <Card imgSrc={web} imgDescription="This is a Card" imgTitle="Web Development" />
+        <Card imgSrc={android} imgDescription="This is a Card" imgTitle="Android Development" />
+        <Card imgSrc={programming} imgDescription="This is a Card" imgTitle="Programming" />
+        <Card imgSrc={game} imgDescription="This is a Card" imgTitle="Game Development" />
+        <Card imgSrc={content} imgDescription="This is a Card" imgTitle="Content Writing" />
+        <Card imgSrc={graphics} imgDescription="This is a Card" imgTitle="Graphics Designing" />
           
-        </div>
-
-        <div className="col-md-4 col-10 mx-auto">
-          <div className="card w-4">
-            <img src={homeImg} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <a href="#" class="btn btn-primary">
-                Go somewhere
-              </a>
-            </div>
-          </div>
-          
-        </div>
-
-        
       </div>
     </>
   );
