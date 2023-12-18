@@ -8,7 +8,8 @@ const Home = () => {
       <Common
         value="Home"
         imgSrc= {homeImg}
-        buttonClick="/about"
+        button1Click="/about"
+        button2Click="/services"
         button1Name="About Us"
         button2Name="Services"
       />
