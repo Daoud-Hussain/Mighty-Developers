@@ -42,7 +42,7 @@
   animation: up-down 1.5s ease-in-out infinite alternate-reverse both;
 }
 
-strong{
+.special{
   color: #1e376c;
 }
 
