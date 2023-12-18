@@ -9,7 +9,8 @@ const Home = () => {
         value="Home"
         imgSrc= {homeImg}
         buttonClick="/about"
-        buttonName="About Us"
+        button1Name="About Us"
+        button2Name="Services"
       />
     </>
   );

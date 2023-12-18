@@ -66,7 +66,7 @@
   border: 1px solid #f0964f;
   background-color: #f0964f;
 }
-.button-get-started {
+.button1, .button2 {
   align-items: center;
   background-color: #f0964f;
   border: 0;
@@ -96,10 +96,23 @@
   text-decoration: none;
 }
 
-.button-get-started:hover,
-.button-get-started:focus { 
+.button1:hover,
+.button1:focus { 
   background-color: #16437E;
   color: #ffffff;
+}
+
+.button2{
+  margin-left: 10px;
+  background-color: #16437E;
+  color: #ffffff;
+
+}
+
+.button2:hover,
+.button2:focus { 
+  background-color: #f0964f;
+  color: #000000;
 }
 
 
