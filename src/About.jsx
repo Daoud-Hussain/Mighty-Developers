@@ -8,8 +8,10 @@ const About = () => {
     <Common
       value="About"
       imgSrc={aboutImg}
-      buttonClick="/services"
-      buttonName="Get Started"
+      button1Click="/services"
+      button2Click="/contact"
+      button1Name="Services"
+      button2Name="Contact Us"
     />
   );
 };
